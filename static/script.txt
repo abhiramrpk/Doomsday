@@ -1,0 +1,100 @@
+bac1.jpg:
+#:
+:: Sarah!!! 
+:base2.png: Yes Sir!
+:base2.png: I've been trying to reach you for a while. You do know what's going on, right?
+:base3.png : Yes sir, The news is everywhere!
+:base2.png : We've formed a team already. You are the lead, you should bring the best of you. 	The case file is there in your mail.
+:base2.png : You can count on me sir. Let me go through the file
+back-mail.jpg:
+casefile.jpg:
+#:
+:base2.png : So Peter is with me in this! I should call him.
+fpeter-p.png:base2.png: Yes Ma’am, Where do we start?
+fpeter-p.png:base4.png : Meet me at the crime scene at noon.
+fpeter-p.png:base4.png: Copy that!
+Clue1.jpg
+fsarah2.png: : You guys got anything for me? Any potential leads?
+fsarah2.png:robert3.png : Everything is so clean! No fingerprints, No DNA, We’ve got nothin!
+#:
+fsarah2.png:peter-o.png : Looks like this is a deadend!
+fsarah-t.png:peter-o.png : There’ll be something, I’ve a feeling that we are missing something....
+#:------------------------------------------
+Clue1.jpg
+fsarah2.png:peter.png: Ma’am you were right! I think I have something for you!
+fsarah-d.png: peter.png: That’s great, so you got access to Dr. Jameson’s System.
+#:
+fsarah-t.png: peter.png: Peter what are you trying to do?
+computer.jpg:
+fpeter-h.png:sarah.png: I’m trying to extract a file, It is huge and I think it’ll be of some use.
+computer.jpg:
+loading.jpg:
+fpeter.png:sarah2.png: Ohh!! The only guy with brains on the scene… hehe 
+frobert4.png: sarah2.png: !!!!
+#:
+fpeter-o.png: : What the....!
+crash.jpg:
+#:
+fpeter-o.png:sarah2.png: Language!.....  What happened?
+fpeter-o.png:sarah2.png: I don’t know! This is unusual, I’ve lost access to the system!
+#:
+fpeter-o.png:sarah2.png: We have got Hacked!
+intro.jpg:
+fpeter-t.png: : What is this…?
+fpeter-t.png:sarah-t.png: Looks like someone is trying to say something….
+riddle.jpg:
+fpeter-t.png:sarah2.png: Why a Riddle though?
+riddle.jpg:
+#:
+fsarah.png:peter-o.png: Blackout!!! I think I’ve heard that name before.
+fsarah-t.png: peter-o.png: Yeah... me too..
+frobert4.png: peter-o.png: What are you guys thinking… Fill me in.
+frobert4.png:peter-t.png: Blackout is a genius hacker who wishes to rule the world. He sees himself as a hero, and believes that he is doing the world a favour by eliminating human error from the equation.
+frobert4.png: peter-t.png : But what does a hacker like him have to do with this? It doesn't make any sense. 
+#:
+fsarah-t.png: peter-t.png : No it makes perfect sense. Now everything is falling into place.
+fsarah-t.png:peter-o.png: Are you thinking what I am thinking? Like… don’t you remember what Dr. Jameson possessed?
+fsarah-t.png:peter-o.png: Exactly! Getting Dr. Jameson’s invention would be a dream come true moment for someone like  him.
+#:
+fsarah-t.png:peter-o.png: With that he can create an army of machines that could be controlled remotely, and he may plan to use them to take over all the world's computer systems. 
+fsarah-t.png:robert4.png : Seven Hells!!! It's getting more and more complicated…
+b1.jpg:
+b2.jpg:
+riddle2.jpg
+fsarah-t.png:peter-t.png: But why though...Is he mocking us…
+fsarah-t.png:peter-o.png: He is inviting us for a cat n mouse game…
+fsarah2.png: robert4.png: ???
+fsarah-t.png: robert4.png: But if we play this right, we can make something out of this....
+#:
+fsarah-t.png: peter-t.png: Peter!!! as always I am counting on you. I know you'll come up with something...
+fsarah2.png: peter.png: I will try my best ma'am.
+b3.jpg:
+#:
+fsarah-t.png : : how did he know my name…
+fsarah-t.png: peter-t.png: that is something.
+fsarah-t.png:peter-t.png : We have to find him somehow!!!
+fsarah-t: peter-t.png: I think I have something.....
+fsarah.png:peter-t.png: What is it... what are you talking about?
+fsarah2.png:peter.png: I've managed to get hold of something while he  was connected.
+fsarah2.png:peter.png: That's great! What is it.
+fsarah2.png:peter.png: Let me Show you.
+ipclue.jpg:
+fsarah2.png:robert3.png : Why do these random numbers start popping up all of a sudden?
+fsarah-t.png:robert3.png : No... Everything is not random. I think they have some kind of meaning...
+ipclue.jpg:
+fsarah2.png: : Bingo!
+fsarah.png:peter.png: This is a giant leap... we shound go check it out!!!
+clue6.jpg:
+fsarah-t.png:robert3.png : What the hell... Still, this dosen't makes any sense to me...
+fpeter-t.png:robert3.png : It should... It could be related to blackout!! You should know that blackout could be just an alias....
+fpeter-t.png:robert3.png : Yeah maybe!!!
+fpeter-t.png:robert3.png : From what I found the address we got was located around Russia....
+fpeter-t.png:robert3.png : That is contradicting what we found earlier.... Right?
+fsarah2.png:: No!!!
+#:
+fsarah2.png:peter-t.png: I think I know my next move.
+fsarah2.png:peter-t.png: What??? you got something?
+fsarah2.png:peter-t.png: Yes.
+fsarah2.png:peter-t.png: What is it?
+fsarah2.png:peter-t.png: You know what you know... Try to connect the gaps guys...
+#:----------------------------

@@ -1,0 +1,37 @@
+<html>
+    {% extends 'base.html' %}
+    {% load static %}
+    <head>
+        <title>
+            Zoro
+        </title>
+        <link rel="icon" href="{% static 'images/logos/title_logo.png' %}"  type = "image/png">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/css.css' %}" />
+    </head>
+    {% block body_block %}
+    <center>
+        <br><br>
+        <div class="content-section">
+            <div class="media">
+              <img class="rounded" src="{{ user.profile.image.url }}" width="200" height="200">
+              <div class="media-body">
+                <h1 class="all">{{ user.first_name }} {{ user.last_name }}</h1>
+                <p>Username: {{ user.username }}</p>
+                <p>Emal: {{ user.email }}</p>
+              </div>
+            </div>
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend>Profile Update</legend>
+                    {{ u_form}}
+                    {{ p_form}}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">Update</button>
+                </div>
+            </form>
+        </div>
+    </center>
+    {% endblock %}
+</html>

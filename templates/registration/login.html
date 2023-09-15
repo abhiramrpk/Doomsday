@@ -1,0 +1,30 @@
+<html>
+    {% extends 'base.html' %}
+    {% load static %}
+    <head>
+        <title>
+            DOOMSDAY
+        </title>
+        <link rel="icon" href="{% static 'images/logos/title_logo.png' %}"  type = "image/png">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/css.css' %}" />
+    </head>
+     <!-- {% block body_block %} -->
+    <boby class="back-b">
+    <div style="height: 100%;">
+        <div style="padding-top: 25rem;">
+            <h1 class="all">Contestant Login</h1>
+            <form method="POST">
+                {% csrf_token %}
+                {{form.username}} <br>
+                {{form.password}} <br>
+                <input type="submit" value="Log In"><br>
+                <!-- <a href="{% url 'password_reset' %}">Forgot Password?</a> -->                
+            </form>
+            <br>
+            <!-- Don't have an account?   <a href="{% url 'signup' %}">signUp</a> -->
+        </div>
+    </div>
+    
+    <!-- {% endblock %} -->
+    </boby>
+</html>

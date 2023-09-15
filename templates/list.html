@@ -1,0 +1,33 @@
+<html>
+    {% extends 'base.html' %}
+    {% load static %}
+    <head>
+        <title>
+            Zoro - List
+        </title>
+        <link rel="icon" href="{% static 'images/logos/title_logo.png' %}"  type = "image/png">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/css.css' %}" />
+    </head>
+    {% block body_block %}
+        <center>
+            <br><br><br>
+            <h1 class="all">Clue table</h1>
+            <table id="anime">
+                <tr>
+                    <th>id</th>
+                    <th>clue</th>
+                    
+                </tr>
+                {% for i in line %}
+                <th>
+                    <td>{{i.clue_id}}</td>
+                    <td>{{i.clue}}</td>
+                    
+                </th>
+                {% endfor %}
+            </table>
+            <br>
+            <a href="{% url 'home' %}">Add Entry</a>
+        </center>
+    {% endblock %}
+</html> 

@@ -1,0 +1,338 @@
+
+
+#anime {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: separate;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+#anime td, #anime th {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+}
+#anime th:first-child{ border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+#anime th:last-child { border-top-right-radius: 10px;border-bottom-right-radius: 10px; }
+
+#anime tr:nth-child(even) td:first-child { border-top-left-radius: 10px; }
+#anime tr:nth-child(even) td:last-child { border-top-right-radius: 10px; }
+#anime tr:nth-child(even) td:first-child { border-bottom-left-radius: 10px; }
+#anime tr:nth-child(even) td:last-child { border-bottom-right-radius: 10px; }
+
+#anime tr:nth-child(odd) td:first-child { border-top-left-radius: 10px; background-color: #f2f2f2}
+#anime tr:nth-child(odd) td:last-child { border-top-right-radius: 10px; background-color: #f2f2f2}
+#anime tr:nth-child(odd) td:first-child { border-bottom-left-radius: 10px; background-color: #f2f2f2}
+#anime tr:nth-child(odd) td:last-child { border-bottom-right-radius: 10px; background-color: #f2f2f2}
+
+/* #anime tr:hover {background-color: #ddd;} */
+  
+#anime th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #404040;
+  color: white;
+}
+
+#txt[type=text], #txt select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  opacity:70%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#pass[type=password], #pass select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  opacity: 70%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#txt_s[type=text], #txt_s select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#num_s, #num_s select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#num, #num select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  opacity:70%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#pass_s, #pass_s select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#mail, #mail select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #404040;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit].small {
+  width: 10%;
+  background-color: #404040;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bton{
+    width: 15rem;
+    background-color: #404040;
+    color: white;
+    padding: 14px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.bton:hover {
+  background-color: #0f0f0f;
+}
+
+input[type=submit]:hover {
+  background-color: #0f0f0f;
+}
+
+h1.all {
+  color: #f3eded;
+  font-size: 40px;
+  font-weight: bold;
+  
+  
+}
+h1.title {
+  color: #f3eded;
+  font-size: 40px;
+  font-weight: bold;
+  font-size: 100pt;
+  
+}
+img.rounded {
+  border-radius: 50%;
+}
+
+.back{
+  background-image:url('../images/background/treasure-hunt.jpg' );
+  background-color: #0f0f0f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height:100%;
+  
+  /* backdrop-filter: blur(8px); */
+
+
+}
+
+.back-b{
+  background-image:url('../images/background/treasure-hunt.jpg' );
+  background-color: #0f0f0f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height:100%;
+  backdrop-filter: blur(8px);
+
+
+}
+
+
+/* ------------------index.html nte css------------------------- */
+
+
+
+
+.speech-bubble-l {
+	position: relative;
+	background:#eef3f4;
+	border-radius: 1em;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.speech-bubble-l:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: #eef3f4;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -5px;
+	margin-bottom: -9px;
+}
+
+.speech-bubble-r {
+	position: relative;
+	background: #eef3f4;
+	border-radius: 1em;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.speech-bubble-r:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: #eef3f4;
+	border-left: 0;
+	border-top: 10px solid #eef3f4;
+	margin-right: -5px;
+	margin-bottom: -9px;
+}
+.bac{
+  background: url('../images/background/treasure-hunt.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  
+}
+.bac1{
+  background: url('../images/background/Clue1.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+.clue1{
+  background: url('../images/background/back-mail.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  /* backdrop-filter: blur(8px); */
+}
+
+
+#left-img{
+	max-height: 40rem;
+  
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#right-img{
+	max-height: 40rem;
+
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+@keyframes typing {
+	from {
+	  width: 0;
+	}
+}
+
+
+.popup{
+  background-color: #ffffff;
+  width: 50%;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  display: none;
+  font-family: “Poppins”,sans-serif;
+  text-align: center;
+}
+
+
+.imgpopup{
+  background-color: #ffffff;
+  width: 50%;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  display: none;
+  font-family: “Poppins”,sans-serif;
+  text-align: center;
+}
+
+
+.popup button{
+  display: block;
+  margin:  0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #ffffff;
+  background: #03549a;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.popup h2{
+  margin-top: -20px;
+  size: 40pt;
+}
+
